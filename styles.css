@@ -1,0 +1,15 @@
+
+#logo {
+  width: 6rem;
+  height: 4rem;
+}
+
+body {
+  /* background-image: url('blue-network.jpg');; */
+  /* background-color: red */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
