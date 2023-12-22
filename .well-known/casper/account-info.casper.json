@@ -30,8 +30,8 @@
     "email": "cenggulmez.65@gmail.com",
     "branding": {
       "logo": {
-        "png_256": "https://telgostake.com/.well-known/casper/256.png",
-        "png_1024": "https://telgostake.com/.well-known/casper/1024.png",
+        "png_256": "https://telgostake.com/assets/images/logo-256.png",
+        "png_1024": "https://telgostake.com/assets/images/logo-1024.png",
         "svg": ""
       }
     },
