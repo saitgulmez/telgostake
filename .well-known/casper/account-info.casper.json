@@ -19,7 +19,7 @@
           "name": "About Us",
           "url": "https://telgostake.com"
         }
-      ]
+      ]  
     },
     "affiliated_accounts": [
       {
@@ -44,11 +44,11 @@
     "social": {
       "keybase": "",
       "telegram": "@telgostake",
-      "twitter": "",
-      "github": "saitgulmez",
+      "twitter": "@telgostake",
+      "github": "",
       "youtube": "",
       "facebook": "",
-      "medium": "@sgulmez",
+      "medium": "",
       "reddit": "",
       "wechat": ""
     }
@@ -56,7 +56,7 @@
   "nodes": [
     {
       "public_key": "0106eb4a256292100a485953e93d0b9dc4d9442b257405c03fdb91d4e35f185a1b",
-      "description": "This validator is running on a bare metal machine with top hardware specifications",
+      "description": "This validator is running on a bare metal machine with top hardware specifications.",
       "location": {
         "name": "Netherlands",
         "country": "NL",
