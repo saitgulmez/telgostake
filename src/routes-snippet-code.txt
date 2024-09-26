@@ -1,0 +1,9 @@
+
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/home" element={<Home />} /> */}
+          <Route path="/notfound" element={<NotFoundPage />} />
+          {/* <Route path="/howtostake" element={<HowToStake />} /> */}
+        </Routes>
+      </div>
