@@ -10,6 +10,11 @@
     overflow-x:hidden;
     overflow-y:hidden;
 }
+
+html, body {
+  height: 100%;
+  /* background: red; */
+}
 @layer components {
   .card {
     @apply flex items-center justify-center;

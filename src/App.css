@@ -1,17 +1,15 @@
 #root {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0rem;
+  /* max-width: 100%; */
+  /* margin: 0 auto; */
+  /* padding: 0rem; */
 }
 
 
 .container {
-  width: 100vw;
-  height: 90vh;
-  /* background: red; */
+  /* width: 100vw;
+  height: 90vh; */
   /* transition: 0.05s; */
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   /* background: blue; */
-  text-align: center;
 }
 
