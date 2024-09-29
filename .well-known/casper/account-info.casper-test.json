@@ -1,0 +1,67 @@
+{
+  "owner": {
+    "name": "Telgo Stake",
+    "description": "Reliable and experienced staking service provider from Netherlands.",
+    "type": ["validator"],
+    "identity": {
+      "ownership_disclosure_url": "",
+      "casper_association_kyc_url": "",
+      "casper_association_kyc_onchain": ""
+    },
+    "resources": {
+      "code_of_conduct_url": "",
+      "terms_of_service_url": "",
+      "privacy_policy_url": "",
+      "other": [
+        {
+          "name": "About Us",
+          "url": "https://telgostake.com"
+        }
+      ]
+    },
+    "affiliated_accounts": [
+      {
+        "public_key": "0153d98c835b493c76050735dc79e6702a17cd78ab69d5b0c3631e72f8f38bb095"
+      }
+    ],
+    "website": "https://telgostake.com",
+    "email": "hello@telgostake.com",
+    "branding": {
+      "logo": {
+        "png_256": "https://telgostake.com/assets/images/logo256.png",
+        "png_1024": "https://telgostake.com/assets/images/logo-1024.png",
+        "svg": ""
+      }
+    },
+    "location": {
+      "name": "Ankara",
+      "country": "TR",
+      "latitude": 39.9334,
+      "longitude": 32.8597
+    },
+    "social": {
+      "keybase": "",
+      "telegram": "@telgostake",
+      "twitter": "@telgostake",
+      "github": "",
+      "youtube": "",
+      "facebook": "",
+      "medium": "",
+      "reddit": "",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "public_key": "0153d98c835b493c76050735dc79e6702a17cd78ab69d5b0c3631e72f8f38bb095",
+      "description": "This validator is running on a bare metal machine with top hardware specifications",
+      "location": {
+        "name": "Netherlands",
+        "country": "NL",
+        "latitude": 52.1326,
+        "longitude": 5.2913
+      },
+      "functionality": ["validator"]
+    }
+  ]
+}
