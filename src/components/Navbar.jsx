@@ -7,11 +7,11 @@ import logo from "../assets/logo-black-371-130.png";
 
 const NavBar = () => {
   const Links = [
-    { name: "Home", link: "/" },
-    { name: "How to Stake", link: "/" },
-    { name: "FAQ", link: "/" },
-    { name: "About Us", link: "/" },
-    { name: "Contact", link: "/" },
+    { name: "Home", link: "/home" },
+    { name: "How to Stake", link: "/howtostake" },
+    { name: "FAQ", link: "/faq" },
+    { name: "About Us", link: "/about" },
+    { name: "Contact", link: "/contact" },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ const NavBar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:pb-0 pb-12  uppercase absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             isOpen ? "top-20 " : "top-[-490px]"
           }`}
         >
