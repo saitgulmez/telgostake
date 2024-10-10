@@ -8,7 +8,7 @@ import logo from "../assets/logo-black-371-130.png";
 const NavBar = () => {
   const Links = [
     { name: "Home", link: "/home" },
-    { name: "How to Stake", link: "/howtostake" },
+    // { name: "How to Stake", link: "/howtostake" },
     { name: "FAQ", link: "/faq" },
     { name: "About Us", link: "/about" },
     { name: "Contact", link: "/contact" },
@@ -17,20 +17,21 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="shadow-md w-full fixed top-0 left-0">
+    // <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    // <nav className="shadow-md w-full fixed top-0 left-0 ml-10">
+    <nav className="md:container w-full fixed top-0 left-0 ">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+        {/* <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"> */}
         {/* Logo Part */}
-        {/* <div
+        <div
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins]
         text-gray-800"
         >
-          <span className="text-3xl text-indigo-600 mr-1 pt-2">
-            <ion-icon name="logo-ionic"></ion-icon>
-          </span>
-          Telgo Stake
-        </div> */}
-        <div>
-          <img src={logo} alt="logo" className="md:cursor-pointer w-[10rem]" />
+          <img
+            src={logo}
+            alt="logo"
+            className="md:cursor-pointer w-[10rem] md:ml-16"
+          />
         </div>
 
         <div
@@ -41,18 +42,24 @@ const NavBar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12  uppercase absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            isOpen ? "top-20 " : "top-[-490px]"
+          className={`md:flex md:items-center md:pb-0 pb-12 uppercase absolute md:static bg-white md:z-auto z-[-1] left-0 w-full h-screen md:h-auto md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+            isOpen ? "top-20 bg-stone-100 md:bg-white" : "top-[-490px]"
           }`}
         >
-          {Links.map((link) => (
-            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+          {Links.map((item) => (
+            <li
+              key={item.name}
+              className="md:ml-2 text-xl md:my-0 my-3"
+              onClick={() => setIsOpen(!isOpen)}
+            >
               <Link
-                to={link.link}
+                to={item.link}
                 // href={link.link}
-                className="text-gray-800 hover:text-gray-400  duration-500"
+                // className="text-gray-800 hover:text-gray-400  duration-500"
+                // "hover:underline hover:decoration-red-500 hover:decoration-2"
+                className="font-bold text-sm px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 "
               >
-                {link.name}
+                {item.name}
               </Link>
             </li>
           ))}

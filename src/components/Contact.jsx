@@ -1,39 +1,13 @@
-import React from 'react'
-
-const Home = () => {
+const Contact = () => {
   return (
-    <div className="container mx-auto overflow-auto ">
+    <div className="container mx-auto overflow-auto mt-4 ">
       <div className="flex flex-col text-center md:text-xl justify-center md:mt-40 mt-40">
-        {/* <div className="text-center text-xl relative top-40 start-0 "> */}
-        <div className="flex-1">
-          <p className="text-dark md:block">
-            Our website is under construction. You can stake your CSPR tokens on
-            our following validator node
-          </p>
-        </div>
-
-        <div className="flex-1">
-          <a
-            target="_blank"
-            href="https://cspr.live/validator/0106eb4a256292100a485953e93d0b9dc4d9442b257405c03fdb91d4e35f185a1b"
-          >
-            <button
-              type="button"
-              className="text-white bg-gradient-to-r from-cyan-400
-             via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 
-             focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800  
-             font-medium rounded-lg text-md px-5 py-2.5 text-center text-white-900 me-2 md:mt-10 mt-10"
-            >
-              Stake now
-            </button>
-          </a>
-        </div>
-
+                
+        {/* <!-- Telegram --> */}
         <div className="flex-1">
           <div className=" flex flex-row justify-center py-10 ">
             <div className="flex-1/5 w-10 ">
               <a href="https://t.me/telgostake" target="_blank">
-                {/* <!-- Telegram --> */}
                 <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#0088cc]">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                     {/* <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. --> */}
@@ -64,9 +38,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
-
-export default Home;
+export default Contact
