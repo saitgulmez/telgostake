@@ -4,12 +4,12 @@ const Accordion = ({ question, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-2 bg-stone-300 m-2">
+    <div className="">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between w-full "
+        className="py-3 px-2 text-lg w-full flex justify-between items-center text-slate-800 "
       >
-        <span>{question}</span>
+        <span className="font-serif text-black text-wrap text-start ">{question}</span>
         <svg
           className="fill-steal-500 shrink-0 ml-8 "
           width="16"
@@ -39,11 +39,13 @@ const Accordion = ({ question, answer }) => {
       <div
         className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
           accordionOpen
-            ? "grid-rows-[1fr] opacity-100"
+            ? "grid-rows-[1fr] opacity-100 "
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className="overflow-hidden">{answer}</div>
+        <div className="overflow-hidden text-lg font-serif rounded px-2 py-2 text-slate-500  ">
+          {answer}
+        </div>
       </div>
     </div>
   );
