@@ -6,6 +6,10 @@ export default {
       colors: {
         "twitter-blue": "#1DA1F2",
       },
+      // animation: {
+      //   "animate-ping": "ping 10s cubic-bezier(0, 0, 0.2, 1) infinite",
+      // },
+
     },
     // colors: {
     //   transparent: 'transparent',
