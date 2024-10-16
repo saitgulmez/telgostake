@@ -4,6 +4,16 @@ import { Link } from "react-router-dom";
 // import logo from '../assets/logo-white-371-130.png'
 // import logo from '../assets/logo-white-371-100.png'
 import logo from "../assets/logo-black-371-130.png";
+import logo1024_3 from '../assets/logo1024.png'
+import logo1024 from '../assets/images/logo-1024.png'
+import logo1024_2 from '../assets/images/logo-1024.png'
+import logo256 from '../assets/images/logo256.png'
+import logo256_2 from '../assets/images/logo-256.png'
+// import {
+//   logo256,
+//   logo1024,
+//   logo
+// } from '../assets/*.png';
 
 const NavBar = () => {
   const Links = [
