@@ -30,8 +30,8 @@
     "email": "hello@telgostake.com",
     "branding": {
       "logo": {
-        "png_256": "https://telgostake.com/assets/images/logo256.png",
-        "png_1024": "https://telgostake.com/assets/images/logo-1024.png",
+        "png_256": "https://telgostake.com/assets/logo256.png",
+        "png_1024": "https://telgostake.com/assets/logo-1024.png",
         "svg": ""
       }
     },
